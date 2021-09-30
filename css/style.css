@@ -1,0 +1,285 @@
+
+/* 
+BASE STYLES
+ */
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 1.25em;
+}
+
+body {
+    font: 400 100%/1.5 'PT Sans', sans-serif;
+    margin: -1px;  
+}
+
+h1 {
+    color: #08605F;
+    font: 700 1.5/1 'PT Sans', sans-serif;
+    text-align: center;
+}
+
+main {
+    text-align: center;
+    margin: 25px;
+}
+
+aside {
+    margin: -25px;
+}
+
+section {
+    padding: 50px;
+}
+
+a:link { text-decoration: none; }
+
+
+/* 
+MAIN STYLES
+*/
+
+
+/* header */
+
+.grid {
+    background: #110B11;
+    display: grid;
+    height: 80px;
+    grid-template-columns: 330px auto 150px;
+    padding: 25px 10px 10px 70px;
+    grid-gap: 40px;   
+    overflow: hidden;
+}
+
+.search {
+    color: rgb(136, 135, 135);
+    background-color: white;
+    padding: .2em .8em;
+    height: 35px;
+    max-width: 1000px;
+}
+
+.button {
+    color: white;
+    font-weight: 700;
+    background-color: #110B11;
+    padding: .2em .8em;
+    border-width: 5px;
+    border-style: solid;
+    border-color: white;
+    border-radius: .35em;
+}
+
+a.button:hover {
+    color: #110B11;
+    background-color: white;
+}
+
+
+/* navigation header menu */
+
+.menu {
+    display: grid;
+    background: #ABC4C0;
+    grid-template-columns: repeat(auto-fill, 129px);
+    grid-gap: 5px;  
+    justify-content: space-around;
+}
+
+.nav {
+    padding: .5em .3em;
+    width: 80px;
+    text-align: center;
+    align-self: center;
+    justify-self: center;
+}
+
+.button3 {
+    color: white;
+}
+
+a.button3:hover {
+    color: #08605F;
+}
+
+
+/* footer */
+
+.mainfooter{
+    display: grid;
+    height: 50px;
+    grid-template-columns: auto 150px 6%;
+    padding: 10px;
+    font-size: 0.8rem;
+    background-color: #110B11;
+    justify-content: space-around;
+    grid-gap: 10px;
+}
+
+
+/* Index */
+
+.button2 {
+    color: #08605F;
+    font-weight: 700;
+    font-size: 0.80em;
+    background-color: #ABC4C0;
+    border-width: 3px;
+    border-style: solid;
+    border-color: #08605F;
+    border-radius: 0.35em;
+    padding: .2em .8em;
+    width: 500px;
+    text-align: center;
+}
+
+a.button2:hover {
+    color: white;
+    background-color: #08605F;
+}
+
+
+/* CATEGORIES */
+
+.categories {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-template-rows: 150px;
+    justify-content: space-around;
+    padding: 30px;
+    grid-gap: 50px;
+}
+
+.categories2 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-template-rows: 1px;
+    justify-content: space-around;
+    padding: 60px;
+    grid-gap: 50px;
+}
+
+.cat {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.items {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    grid-template-rows: repeat(3, 390px);
+    justify-content: space-around;
+    padding: 30px;
+    align-items: center;
+    grid-gap: 30px;
+}
+
+ul {
+    color: white;
+    font-weight: 700;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    
+}
+
+.itm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.button4 {
+    color: #08605F;
+    font-weight: 700;
+    padding: 15px;
+    width: 270px;
+    border-color: black;
+    border-style: solid;
+    border-right: 10px;
+    border-left: 10px;
+}
+
+a.button4:hover {
+    color: #110B11;
+}
+
+p {
+    text-align: center;
+    margin-top: -5px;
+    color: #08605F;
+}
+
+
+
+/* Item page */
+
+.buyitem {
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+   grid-gap: 20px;
+
+}
+
+.otherlsitings {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    justify-content: space-around;
+    padding: 30px;
+    align-items: center;
+    grid-gap: 30px;
+}
+
+.review {
+    background-color: #ABC4C0;
+    padding: 30px;
+    margin-top: -50px;
+}
+
+h2 {
+    color: #08605F;
+    font: 700 1.5/1 'PT Sans', sans-serif;
+    margin-top: -5px;
+}
+
+
+.button6 {
+    color: #08605F;
+    font-weight: 700;
+    padding: 15px;
+    width: 190px;
+    background-color: #ABC4C0;
+    margin-top: 10px;
+}
+
+a.button6:hover {
+    color: #110B11;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
